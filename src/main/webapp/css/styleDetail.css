@@ -1,0 +1,23 @@
+#a {
+	float:left;
+}
+
+.btn { 
+  padding: 6px 10px;
+  border: 0 none;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+  color: #eee;
+  background: #39c;
+  margin: 0.5rem 0;
+  transition: box-shadow 0.3s linear;
+}
+  
+.btn:hover {
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+}
+
+

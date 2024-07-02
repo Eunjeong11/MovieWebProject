@@ -1,0 +1,27 @@
+
+
+drop table member;
+create table member (
+name varchar2(10),
+id varchar2(12) primary key,
+pw number(10),
+birth number(6),
+phone number(11)
+);
+commit;
+
+
+
+insert into member values('kim', 'kim123', 1234, 891231, 01012345678);
+insert into member values('sky', 'sky123', 1234, 871231, 01012345678);
+insert into member values('ryu', 'ryu128', 1234, 970430, 01012345678);
+insert into member values('lee', 'lee121', 1234, 910622, 01012345678);
+insert into member values('park', 'park122', 1234, 920521, 01012345678);
+insert into member values('choi', 'choi124', 1234, 930308, 01012345678);
+insert into member values('jeong', 'jeong125', 1234, 940717, 01012345678);
+insert into member values('kang', 'kang126', 1234, 951009, 01012345678);
+insert into member values('cho', 'cho127', 1234, 981001, 01012345678);
+insert into member values('yoon', 'yoon129', 1234, 990815, 01012345678);
+commit;
+
+select * from member;

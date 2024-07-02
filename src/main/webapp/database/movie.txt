@@ -1,0 +1,35 @@
+
+
+update movie set poster='m_someday.jpg' where mcode=8794;
+update movie set poster='m_newworld.jpg' where mcode=8795;
+update movie set poster='m_lion.jpg' where mcode=8796;
+update movie set poster='m_apocalypse.jpg' where mcode=8797;
+update movie set poster='m_suzume.jpg' where mcode=8798;
+update movie set poster='m_exhuma.jpg' where mcode=8799;
+update movie set poster='m_dune2.jpg' where mcode=8800;
+commit;
+
+
+
+drop table movie;
+create table movie(
+mcode number(10) constraint movie_mcode_pk primary key,
+title varchar2(20),
+etitle varchar2(25),
+genre varchar2(20), --장르 하나씩--
+mgrade varchar2(25),
+runtime number(10),
+rls date,
+poster varchar2(30)
+);
+
+
+
+insert into movie values (8794, '상견니', 'Someday or One Day', '드라마', '15세이상관람가', 107, '2024/01/25', 'm_someday.jpg');
+insert into movie values (8795, '신세계', 'New World', '범죄', '청소년관람불가', 134, '2024/02/22', 'm_newworld.jpg');
+insert into movie values (8796, '라이온 킹', 'The Lion King', '드라마', '전체관람가', 118, '2024/01/01', 'm_lion.png');
+insert into movie values (8797, '지옥의 묵시록', 'Apocalypse Now', '전쟁', '청소년관람불가', 153, '2024/01/31', 'm_apocalypse.jpg');
+insert into movie values (8798, '스즈메 문단속', 'Suzume', '판타지', '12세이상관람가', 122, '2024/03/03', 'm_suzume.jpg');
+insert into movie values (8799, '파묘', 'Exhuma', '미스터리', '15세이상관람가', 134, '2024/02/22', 'm_exhuma.jpg');
+insert into movie values (8800, '듄: 파트2', 'Dune: Part Two', '액션', '12세이상관람가', 166, '2024/02/28', 'm_dune2.jpg');
+

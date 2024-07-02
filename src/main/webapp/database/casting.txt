@@ -1,0 +1,49 @@
+
+
+drop table casting;
+create table casting(
+name varchar2(30),
+mcode number(10) constraint casting_mcode_fk references movie(mcode),
+role varchar2(10)	--director/actor--
+);
+
+
+
+insert into casting values ('황천인', 8794, 'director');
+insert into casting values ('가가연', 8794, 'actor');
+insert into casting values ('허광한', 8794, 'actor');
+insert into casting values ('시백우', 8794, 'actor');
+
+insert into casting values ('박훈정', 8795, 'director');
+insert into casting values ('이정재', 8795, 'actor');
+insert into casting values ('최민식', 8795, 'actor');
+insert into casting values ('황정민', 8795, 'actor');
+
+insert into casting values ('로저 알러스', 8796, 'director');
+insert into casting values ('롭 민코프', 8796, 'director');
+insert into casting values ('매슈 브로더릭', 8796, 'actor');
+insert into casting values ('제러미 아이언스', 8796, 'actor');
+insert into casting values ('제임스 얼 존스', 8796, 'actor');
+
+insert into casting values ('프랜시스 포드 코폴라', 8797, 'director');
+insert into casting values ('말론 브란도', 8797, 'actor');
+insert into casting values ('마틴 쉰', 8797, 'actor');
+insert into casting values ('로버트 듀발', 8797, 'actor');
+
+insert into casting values ('신카이 마코토', 8798, 'director');
+insert into casting values ('하라 나노카', 8798, 'actor');
+insert into casting values ('마츠무라 호쿠토', 8798, 'actor');
+
+insert into casting values ('장재현', 8799, 'director');
+insert into casting values ('최민식', 8799, 'actor');
+insert into casting values ('김고운', 8799, 'actor');
+insert into casting values ('유해진', 8799, 'actor');
+insert into casting values ('이도현', 8799, 'actor');
+
+insert into casting values ('드니 빌뇌브', 8800, 'director');
+insert into casting values ('티모시 샬라메', 8800, 'actor');
+insert into casting values ('젤데이아 콜먼', 8800, 'actor');
+insert into casting values ('레베카 퍼거슨', 8800, 'actor');
+
+
+

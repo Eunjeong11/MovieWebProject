@@ -1,0 +1,160 @@
+
+
+--상견니 x23 ok--
+insert into moviereply values(moviereply_seq.nextval, '(wow)', 8794, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(beautiful)', 8794, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(cool)', 8794, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(great)', 8794, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(right)', 8794, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(best)', 8794, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(interesting)', 8794, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(funny)', 8794, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(entertaining)', 8794, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(sad)', 8794, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(exciting)', 8794, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(amusing)', 8794, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(hurr)', 8794, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(king)', 8794, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(perfect)', 8794, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(luxury)', 8794, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(original)', 8794, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(creative)', 8794, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(genteel)', 8794, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(happy)', 8794, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(hot)', 8794, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(new)', 8794, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(better)', 8794, 'kang126');
+
+
+--파묘 x53 ok--
+insert into moviereply values(moviereply_seq.nextval, '(up)', 8799, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(good)', 8799, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(nice)', 8799, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(wow)', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(beautiful)', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(amazing)', 8799, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(wonderful)', 8799, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(cool)', 8799, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(great)', 8799, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(fantastic)', 8799, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(excellent)', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(right)', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(best)', 8799, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(special)', 8799, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(splendid)', 8799, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(interesting)', 8799, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(funny)', 8799, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(entertaining)', 8799, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(moved)', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(sad)', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(exciting)', 8799, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(amusing)', 8799, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(surprise)', 8799, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(god)', 8799, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(oops)', 8799, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(yeah)', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(hurr)', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(king)', 8799, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(bravo)', 8799, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(incredible)', 8799, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(respect)', 8799, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(perfect)', 8799, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(super)', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(mystery)', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(gorgeous)', 8799, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(luxury)', 8799, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(original)', 8799, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(creative)', 8799, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(genteel)', 8799, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(only)', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(over)', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(like)', 8799, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(happy)', 8799, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(hot)', 8799, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(new)', 8799, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(modern)', 8799, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(well)', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(better)', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(better)', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, 'thumbsup', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, 'GOAT', 8799, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, 'nope', 8799, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, 'finalsmvp', 8799, 'kang126');
+
+
+-듄파트2 x23 ok -
+insert into moviereply values(moviereply_seq.nextval, '(good)', 8800, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(wow)', 8800, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(wonderful)', 8800, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(cool)', 8800, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(fantastic)', 8800, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(best)', 8800, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(special)', 8800, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(interesting)', 8800, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(moved)', 8800, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(sad)', 8800, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(amusing)', 8800, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(surprise)', 8800, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(yeah)', 8800, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(hurr)', 8800, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(bravo)', 8800, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(incredible)', 8800, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(respect)', 8800, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(mystery)', 8800, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(luxury)', 8800, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(only)', 8800, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(over)', 8800, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(like)', 8800, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(better)', 8800, 'kang126');
+
+
+-스즈메의 문단속 x23 ok-
+insert into moviereply values(moviereply_seq.nextval, '(up)', 8798, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(nice)', 8798, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(beautiful)', 8798, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(wonderful)', 8798, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(great)', 8798, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(excellent)', 8798, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(best)', 8798, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(splendid)', 8798, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(funny)', 8798, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(moved)', 8798, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(exciting)', 8798, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(surprise)', 8798, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(oops)', 8798, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(hurr)', 8798, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(bravo)', 8798, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(respect)', 8798, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(super)', 8798, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(gorgeous)', 8798, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(original)', 8798, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(genteel)', 8798, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(over)', 8798, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(happy)', 8798, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(better)', 8796, 'kang126');
+
+
+-라이온 킹 x23 ok -
+insert into moviereply values(moviereply_seq.nextval, '(up)', 8796, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(wow)', 8796, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(beautiful)', 8796, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(wonderful)', 8796, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(cool)', 8796, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(excellent)', 8796, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(right)', 8796, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(special)', 8796, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(funny)', 8796, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(moved)', 8796, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(sad)', 8796, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(surprise)', 8796, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(oops)', 8796, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(yeah)', 8796, 'jeong125');
+insert into moviereply values(moviereply_seq.nextval, '(bravo)', 8796, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(respect)', 8796, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(perfect)', 8796, 'choi124');
+insert into moviereply values(moviereply_seq.nextval, '(gorgeous)', 8796, 'cho127');
+insert into moviereply values(moviereply_seq.nextval, '(original)', 8796, 'lee121');
+insert into moviereply values(moviereply_seq.nextval, '(creative)', 8796, 'park122');
+insert into moviereply values(moviereply_seq.nextval, '(over)', 8796, 'kang126');
+insert into moviereply values(moviereply_seq.nextval, '(happy)', 8796, 'yoon129');
+insert into moviereply values(moviereply_seq.nextval, '(hot)', 8796, 'lee121');

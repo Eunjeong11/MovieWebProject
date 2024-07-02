@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+a {
+    text-decoration:none;
+    color:blue;
+}
+
+ul {
+    list-style:none;
+}
+
+/* Header, Footer 제외한 본문 전체 */
+header {
+	  width:100%; 
+	  margin:0 auto;
+    align:center;
+	  background-color: DarkRed;
+	  /*background-color:white;*/
+}
+
+#headerc {
+		width:1200px;
+	  height:120px;
+	  margin:auto;
+	  position:relative;
+}
+
+/* 우측상단 로그인 관련 링크 */
+#login {
+    /*position:absolute;
+    top:10px;
+    right:20px;*/
+ 	  width:100%; 
+	  margin:0 auto;
+    align:center;
+    position:relative;
+    background-color:GhostWhite;
+    height:40px;
+    font-size:10pt;
+
+}
+#loginlink {
+		width:1200px;
+	  
+	  margin:auto;
+	  position:relative;
+}
+#login ul {
+    width:1200px;
+    margin:auto;
+ 	  position:relative;
+    color:LightSlateGray;
+    float:right;
+    padding: 5px 10px;
+}
+#login li a {
+    color:LightSlateGray;
+    float:right;
+    padding: 5px 10px;
+}
+
+nav {
+    clear:left;
+    width:1200px;
+    height:120px;
+    padding-top:0px;
+    
+}
+
+/* 좌측상단 LOGO */
+#logo {
+    float:left;
+    width:200px;
+    height:120px;
+    line-height:120px;
+    padding-top:20px;
+    padding-left:50px;
+    padding-bottom:10px;
+    
+}
+#logo h1 {
+    font-family: "Merienda", cursive;
+    font-weight:700;
+    font-size:40px;
+    color:#fff;
+    text-shadow:0 -1px 0 #222;
+}
+/* 드롭다운 메뉴 */
+#topMenu {
+    height:50px;
+  	padding-top:30px;
+}
+#topMenu > li {
+    float:left;
+    position:relative;
+}
+#topMenu > li > a {
+    display:block;
+    color:#fff;
+    font-weight:600;
+    text-shadow: 0 1px #DDA0DD;
+    padding:20px 50px
+}
+#topMenu > li > a > span {
+    font-size:0.5em;
+}
+#topMenu > li > a:hover {
+    color:#fff;
+    font-weight:800;
+    text-shadow:0 -1px 1px black;
+}
+#topMenu > li > ul {
+    display:none;
+    position:absolute;
+    /* width:160px; */
+    width:200px;
+    background-color:rgba(255,255,255,0.9);
+    left:20px;
+    margin:0;
+}
+#topMenu > li > ul > li {
+    padding:10px 10px 10px 30px;
+}
+#topMenu > li > ul > li > a {
+    font-size:14px;
+    padding:10px;
+    color:#000;
+}
+#topMenu > li:hover > ul {
+    display: block;
+    z-index:10;
+}
+#topMenu > li > ul > li > a:hover {
+    color:#f00;
+}
+
+
+
+
+#middle {
+	clear:both;
+	width:1200px;
+	margin:0px auto;
+}
+
+/* 본문 슬라이드쇼 */
+#slideShow {
+    clear:both; /*floating OFF*/
+    width:100%;
+    height:500px;
+    overflow:hidden;    /*영역 넘치면 감춤*/
+    position:relative;
+}
+#slides {
+    position:absolute;
+}
+#slides > img {
+    width:1200px;
+    float:left;
+}
+/* 슬라이드쇼 좌우버튼 */
+button {
+    position: absolute;
+    height:500px;
+    top:0;
+    border:none;
+    padding:20px;
+    background-color: transparent;
+    color:#000;
+    font-weight:800;
+    font-size:24px;
+    opacity:0.5;
+}
+#prev {
+    left:0;
+}
+#next {
+    right:0;
+}
+button:hover {
+    background-color:#222;
+    color:#fff;
+    opacity:0.6;
+    cursor:pointer;
+}
+button:focus {
+    outline:0;
+}
+
+#contents {
+    width:100%;
+    height:800px;
+    margin-top:20px;
+    justify-content: center;
+}
+
+/* 영화 5편 프스터 나열 */
+#links {
+    float:left;
+    width:100%;
+    height:350px;
+    margin-top:15px;
+}
+#links ul {
+    padding:0;
+    overflow:hidden;
+}
+#links ul li {
+    float:left;
+    width:20%;
+    text-align:center;
+    margin:10px 0;
+}
+#links ul li a span {
+    display:block;
+    margin:0 auto;
+    width:150px;
+    height:200px;
+    border-radius:20%;
+    border:1px solid #ddd;
+    line-height:150px;
+    overflow:hidden;
+    
+}
+#quick-icon1 {
+    background-image:url('../images/m_someday.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#quick-icon2 {
+    background-image:url('../images/m_exhuma.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#quick-icon3 {
+    background-image:url('../images/m_dune2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#quick-icon4 {
+    background-image:url('../images/m_suzume.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#quick-icon5 {
+    background-image:url('../images/m_lion.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#links ul li a p {
+    margin-top:15px;
+    font-weight:600;
+    color:#666;
+}
+
+/* 공지사항 +a */
+#tabMenu {  
+    float:left;
+    width:400px;
+    height:300px;
+    margin-top:10px;
+    margin-left:70px;
+}
+#tabMenu input[type="radio"] {
+    display:none;
+}
+#tabMenu label {
+    display:inline-block;
+    margin:0 0;
+    padding: 15px 25px;
+    font-weight:600;
+    text-align:center;
+    color:#aaa;
+    border:1px solid transparent;
+}
+#tabMenu label:hover {
+    color:#222;
+    cursor:pointer; 
+}
+#tabMenu input:checked + label {
+    color:rgb(128, 0, 64);
+    border:1px solid #ddd;
+    background-color:#eee;
+}
+.tabContent {
+    display:none;
+    padding:20px 0 0;
+    border-top:1px solid #ddd;
+}
+.tabContent h2 {
+    display:none;
+}
+#tab1 ul {
+    list-style:disc;
+    margin-left:30px;
+}
+#tab1 ul li {
+    font-size:16px;
+    line-height:2;
+}
+#tab2 ul {
+    list-style:disc;
+    margin-left:30px;
+}
+#tab2 ul li {
+    font-size:16px;
+    line-height:2;
+}
+#tab1:checked ~ #tab1,
+#tab2:checked ~ #tab2 {
+    display:block;
+}
+#cf {
+		float:right;
+		width:500px;
+		padding-top:10px;
+    margin-right:70px;
+}
+
+
+/* 하단 Footer */
+footer {    
+    width:100%;
+    background-color: #f8f8fa;
+    border-top:2px solid #222;
+}
+#footerc {
+		width:1200px;
+	  height:200px;
+    margin:0px auto;
+}
+#bottomMenu {
+    width: 100%;
+    height:20px;
+    position : relative;
+}
+#bottomMenu ul {
+    margin-top:15px;
+}
+#bottomMenu ul li {
+    float:left;
+    padding:5px 20px;
+    border-right:1px solid #ddd;
+}
+#bottomMenu ul li:last-child {
+    border-right:none;
+}
+#bottomMenu ul li a, #bottomMenu ul li a:visited {
+    font-size:15px;
+    color:#666;
+}
+/* 좌측하단 페북 유튭 인스타 아이콘 */
+#sns {
+    position:absolute;
+    right:0;
+}
+#sns ul li {
+		width:50px;
+    border:none;
+    padding:5px;
+}
+#company {
+    clear:left;
+    /* margin-top:25px; */
+    margin-top:30px;
+    margin-left:20px;
+    margin-bottom:50px;
+}
+p {
+    font-size:14px;
+    color:#aaa;
+}

@@ -1,0 +1,25 @@
+
+
+drop table booking;
+create table booking(
+booking_code number(10) primary key,
+id varchar(12),
+mcode number(10),
+mdate date,
+seat_num varchar(20),
+price number(10),
+foreign key(id) references member(id),
+foreign key(mcode) references movie(mcode)
+);
+
+create sequence booking_seq 
+start with 1
+increment by 1
+maxvalue 200
+cycle nocache;
+
+commit;
+
+
+
+
